@@ -8,7 +8,7 @@ body{
 }
 .ikhlas-quran{
     display: flex;
-    background-image: url(images/hills-background.png);
+    background-image: url(./images/hills-background.png);
     background-repeat: no-repeat;
     background-position: top right;    
 }
