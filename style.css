@@ -1,0 +1,75 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Meow Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    background-image: linear-gradient(230deg,rgba(176, 255, 176, 0.322),rgba(124, 255, 124, 0.623),rgba(194, 255, 194, 0.575),rgba(173, 255, 173, 0.274),rgba(61, 126, 61, 0.548));
+}
+.ikhlas-quran{
+    display: flex;
+    background-image: url(images/Hills-Background.png);
+    background-repeat: no-repeat;
+    background-position: top right;    
+}
+.color{
+    color: rgb(0, 180, 39);
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.ring-quran img{
+    width: 100%;
+}
+.color-gold{
+    color: rgb(243, 172, 90);
+}
+.ikhlas{
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 25px;
+    padding-right: 30px;
+}
+.surah{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+.listen-button{
+    text-decoration: none;
+    font-weight: 700;
+    color: cornsilk;
+    background-image: linear-gradient(240deg, rgb(0, 255, 0),green,rgb(136, 118, 18),rgb(73, 23, 23),rgb(66, 141, 66),rgb(111, 255, 111) );
+    padding: 12px 32px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.listen-button-color-aqua{
+    text-decoration: none;
+    font-weight: 700;
+    color: cornsilk;
+    background-image: linear-gradient(270deg, rgb(116, 255, 116),rgb(26, 148, 26),rgb(15, 167, 10),rgb(2, 153, 27),rgb(0, 148, 0),rgb(111, 255, 111) );
+    padding: 12px 32px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+.surah-falaq{
+    display: flex;
+    background-image: url(images/hand-bg.png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center bottom;
+    margin-bottom: 200px;
+}
+.half-width img{
+    width: 80%;
+}
+.mrgn-btm{
+    margin-bottom: 150px;
+}
