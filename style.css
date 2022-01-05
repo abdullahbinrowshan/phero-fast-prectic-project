@@ -4,11 +4,11 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Raleway', sans-serif;
     margin: 0px;
-    background-image: linear-gradient(230deg,rgba(176, 255, 176, 0.322),rgba(124, 255, 124, 0.623),rgba(194, 255, 194, 0.575),rgba(173, 255, 173, 0.274),rgba(61, 126, 61, 0.548));
+    background-image: linear-gradient(230deg,rgba(176, 255, 176, 0.322),rgba(124, 255, 124, 0.623),rgba(176, 253, 176, 0.575),rgba(173, 255, 173, 0.274),rgba(108, 204, 108, 0.562));
 }
 .ikhlas-quran{
     display: flex;
-    background-image: url(images/Hills-Background.png);
+    background-image: url(images/hills-background.png);
     background-repeat: no-repeat;
     background-position: top right;    
 }
@@ -25,7 +25,7 @@ h2{
     width: 100%;
 }
 .color-gold{
-    color: rgb(243, 172, 90);
+    color: rgba(240, 157, 63, 0.774);
 }
 .ikhlas{
     margin-bottom: 150px;
@@ -65,11 +65,72 @@ h2{
     background-repeat: no-repeat;
     background-size: 150px;
     background-position: center bottom;
-    margin-bottom: 200px;
+    padding-bottom: 100px;
+    margin-bottom: 150px;
+
 }
 .half-width img{
     width: 80%;
 }
 .mrgn-btm{
     margin-bottom: 150px;
+}
+.nas-full-bg{
+    background-image: url(images/an-nas.png);
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+.left-nas{
+    position: sticky;
+    left: 95%;
+    text-align: left;
+    text-align: justify;
+    width: 420px;
+    height: 100%;
+}
+.bonus-center{
+    text-align: center;
+}
+.bonus{
+    display: flex;
+}
+.bonus-part{
+    background-image: url(images/salah.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    background-position: right bottom;
+    margin-bottom: 50px;
+    padding-bottom: 350px;
+}
+#al-fatihah{
+    border-top:8px solid;
+    border-image: linear-gradient(250deg,rgb(252, 125, 94),rgb(101, 255, 62),green);
+    border-image-slice: 1;
+
+}
+.quranr-bonus{
+    padding: 100px 25px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 12px 150px 200px gray;
+}
+.quranr-bonus{
+    border-top:8px solid;
+    border-image: linear-gradient(250deg,rgb(57, 237, 243),rgb(197, 255, 62),rgb(230, 247, 1));
+    border-image-slice: 1;
+}
+#kursi{
+    text-align: justify;
+}
+footer{
+    background-image: url(images/kaaba.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: top left;
+    padding-top: 300px;
+}
+footer p{
+    text-align: center;
 }
